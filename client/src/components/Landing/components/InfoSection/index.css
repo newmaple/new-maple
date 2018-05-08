@@ -1,0 +1,27 @@
+.InfoSection {
+    text-align: center;
+    background-color: #000;
+    height: 550px;
+}
+
+.InfoSection h2 {
+    max-width: 477px;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 49px;
+    margin: auto;
+    padding-top: 165px;
+}
+
+.Description {
+    max-width: 309px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+}

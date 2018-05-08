@@ -1,0 +1,70 @@
+.AboutSection {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 0px 0px !important;
+    font-family: Montserrat;
+}
+
+.AboutSection img {
+    width: 170px;
+}
+
+.Description {
+    width: 90%;
+    max-width: 620px;
+    color: #4B4737;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.GrowsersDetails {
+    background-color: #000;
+    padding: 20px;
+}
+
+.GrowsersDetails h4 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.GrowersDescription {
+    max-width: 467px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding-top: 10px;
+}
+
+.GrowersContact {
+    max-width: 330px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding-top: 20px;
+}
+
+.GrowersContact a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.GrowersContact button {
+    margin: 25px;
+}

@@ -1,0 +1,19 @@
+.PressSection {
+    text-align: center;
+    background-color: #F6F4EE;
+    padding: 50px 10px;
+}
+
+.PressSection h2 {
+    color: #4B4737;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.PressItem {
+    padding: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
