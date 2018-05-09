@@ -1,0 +1,37 @@
+.SubscribeSection {
+    text-align: center;
+    background-color: rgb(75, 71, 55);
+}
+
+.SubscribeSection h2 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.SubscribeContainer {
+    padding: 20px 10px !important;
+}
+
+.Description {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.InputContainer {
+
+}
+
+.InputContainer input {
+
+}
+
+.InputContainer button {
+
+}

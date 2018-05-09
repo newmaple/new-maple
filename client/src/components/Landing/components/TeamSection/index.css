@@ -1,0 +1,90 @@
+.TeamSection {
+    text-align: center;
+    background-color: #fff;
+}
+
+.TeamSection h2 {
+    text-transform: uppercase;
+    color: #4B4737;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.TeamSectionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Team {
+    flex: 0 100%;
+}
+
+.Team h3 {
+    color: #4B4737;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+
+.AboutTeam {
+    min-height: 200px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.TeamItem1, 
+.TeamItem2, 
+.TeamItem3,
+.TeamItem4 {
+    position: absolute;
+    width: 128px;
+    height: 165px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.TeamItem1 {
+    left: 20%;
+}
+.TeamItem2 {
+    left: 40%;
+    top: 12px;
+}
+.TeamItem3 {
+    left: 60%;
+}
+.TeamItem4 {
+    left: 80%;
+    top: 12px;
+}
+
+.Team img {
+    width: 136px;
+    position: relative;
+    top: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Team button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+}
+
+/* Medium screens */
+@media all and (min-width: 800px) {
+    .Team {
+        flex: 1 50%;
+    }
+}
