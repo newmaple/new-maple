@@ -16,7 +16,8 @@ const Button = ({
         cursor: 'pointer',
         backgroundColor,
         color,
-        padding: '10px 24px'
+        padding: '10px 24px',
+        transition: 'all 300ms'
     }}>
         {props.children}
     </button>
