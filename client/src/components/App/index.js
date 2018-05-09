@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import './App.css';
-import Landing from 'src/components/Landing';
 import { withRouter } from 'react-router';
 import segment from 'segment';
+
+import Landing from 'src/components/Landing';
+import ContactUs from 'src/components/ContactUs';
+
+import './App.css';
+import Header from './components/Header';
 
 @withRouter
 class App extends Component {
@@ -19,7 +23,9 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Header />
         <Switch>
+            <Route exact path="/contact-us" component={ContactUs}/>
             <Route exact path="/" component={Landing}/>
         </Switch>
       </div>
