@@ -1,4 +1,7 @@
 .Header {
+  width: 100%;
+  z-index: 1;
+  position: fixed;
   background-color: white;
   padding: 10px;
 }
@@ -12,7 +15,6 @@
 }
 
 .Nav {
-
   text-align: center;
   display: flex;
   align-items: center;
@@ -26,13 +28,5 @@
 
 .NavItem {
   white-space: nowrap;
-
   padding: 15px;
-}
-
-.NavItemButton {
-  border-radius: 28px;
-  color: white;
-  background-color: #F7CF76;
-  padding: 10px 15px;
 }

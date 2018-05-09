@@ -14,7 +14,6 @@ const Header = () => (
         <a className={styles.NavItem}>COMPANY</a>
         <a className={styles.NavItem}>PARTNER WITH US</a>
         <Link to="/contact-us" className={styles.NavItem}>CONTACT US</Link>
-        <a className={styles.NavItemButton}>LOGIN</a>
       </div>
     </div>
   </div>

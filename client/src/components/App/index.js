@@ -24,6 +24,7 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <div style={{height: '95px'}} />
         <Switch>
             <Route exact path="/contact-us" component={ContactUs}/>
             <Route exact path="/" component={Landing}/>

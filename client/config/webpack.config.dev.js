@@ -139,6 +139,17 @@ module.exports = {
               name: 'static/media/[name].[hash:8].[ext]',
             },
           },
+          {
+            test: /\.svg$/,
+            use: [
+              {
+                loader: require.resolve('babel-loader')
+              },
+              {
+                loader: require.resolve('react-svg-loader')
+              }
+            ]
+          },
           // Process JS with Babel.
           {
             test: /\.(js|jsx|mjs)$/,

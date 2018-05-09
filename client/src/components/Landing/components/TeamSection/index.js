@@ -15,6 +15,7 @@ const TeamSection = () => (
             <div className={styles.Team}>
                 <h3>Team and board members</h3>
                 <div className={styles.AboutTeam}>
+<<<<<<< Updated upstream
                     <span className={styles.TeamItem1}><img alt="Team" src={team1Src} /></span>
                     <span className={styles.TeamItem2}><img alt="Team" src={team2Src} /></span>
                     <span className={styles.TeamItem3}><img alt="Team" src={team3Src} /></span>
@@ -22,12 +23,20 @@ const TeamSection = () => (
                     <Link to="/contact-us">
                         <Button color="#4B4737" backgroundColor="white">Contact Us</Button>
                     </Link>
+=======
+                    <span className={styles.TeamItem1}><img alt="team member" src={team1Src} /></span>
+                    <span className={styles.TeamItem2}><img alt="team member" src={team2Src} /></span>
+                    <span className={styles.TeamItem3}><img alt="team member" src={team3Src} /></span>
+                    <span className={styles.TeamItem4}><img alt="team member" src={team4Src} /></span>
+                    <Button onClick={() => alert('Clicked')} color="#4B4737" backgroundColor="white">Contact Us</Button>
+>>>>>>> Stashed changes
                 </div>
             </div>
 
             <div className={styles.Team}>
                 <h3>The cannabis growers</h3>
                 <div className={styles.AboutTeam}>
+<<<<<<< Updated upstream
                     <span className={styles.TeamItem1}><img alt="Team" src={team1Src} /></span>
                     <span className={styles.TeamItem2}><img alt="Team" src={team2Src} /></span>
                     <span className={styles.TeamItem3}><img alt="Team" src={team3Src} /></span>
@@ -35,6 +44,13 @@ const TeamSection = () => (
                     <Link to="/contact-us">
                         <Button color="#4B4737" backgroundColor="white">Contact Them</Button>
                     </Link>
+=======
+                    <span className={styles.TeamItem1}><img alt="team member" src={team1Src} /></span>
+                    <span className={styles.TeamItem2}><img alt="team member" src={team2Src} /></span>
+                    <span className={styles.TeamItem3}><img alt="team member" src={team3Src} /></span>
+                    <span className={styles.TeamItem4}><img alt="team member" src={team4Src} /></span>
+                    <Button onClick={() => alert('Clicked')} color="#4B4737" backgroundColor="white">Contact Them</Button>
+>>>>>>> Stashed changes
                 </div>
             </div>
         </div>
