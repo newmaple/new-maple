@@ -8,6 +8,8 @@ import ContactUs from 'src/components/ContactUs';
 
 import './App.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import SubscribeSection from './components/SubscribeSection';
 
 @withRouter
 class App extends Component {
@@ -29,6 +31,8 @@ class App extends Component {
             <Route exact path="/contact-us" component={ContactUs}/>
             <Route exact path="/" component={Landing}/>
         </Switch>
+        <SubscribeSection  />
+        <Footer />
       </div>
     );
   }
