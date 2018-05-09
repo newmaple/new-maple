@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './index.css';
+import {Link} from "react-router-dom";
 import Button from 'src/components/utils/Button';
 
 const investorBgSrc = require('src/assets/img/investorBg.jpg');
@@ -12,7 +13,9 @@ const InvestorSection = () => (
             <div className={styles.Description}>
                 If you are a qualified investor and would like to consider investing in our company, please contact us and let us help you with your cannabis questions.
             </div>
-            <Button onClick={() => alert('Clicked')} color="#4B4737" backgroundColor="white">Contact Us</Button>
+            <Link to="/contact-us">
+                <Button color="#4B4737" backgroundColor="white">Contact Us</Button>
+            </Link>
         </div>
 
         <div className={styles.InvestorDescriptionContainer}>

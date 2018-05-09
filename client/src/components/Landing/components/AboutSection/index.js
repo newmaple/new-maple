@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './index.css';
+import {Link} from "react-router-dom";
 import Button from 'src/components/utils/Button';
 
 const logoSrc = require('src/assets/img/logo.png');
@@ -24,7 +25,9 @@ const AboutSection = () => (
                 </div>
                 <div className={styles.GrowersContact}>
                     For more information please contact us at <a href="mailto:inquiry@canwe.ca?subject=Canwe%Growers">inquiry@canwe.ca</a>
-                    <Button onClick={() => alert('Clicked')} color="#4B4737" backgroundColor="white">Contact Us</Button>
+                    <Link to="/contact-us">
+                        <Button color="#4B4737" backgroundColor="white">Contact Us</Button>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './index.css';
+import {Link} from "react-router-dom";
 import Button from 'src/components/utils/Button';
 
 const team1Src = require('src/assets/img/team1.jpg');
@@ -18,7 +19,9 @@ const TeamSection = () => (
                     <span className={styles.TeamItem2}><img alt="Team" src={team2Src} /></span>
                     <span className={styles.TeamItem3}><img alt="Team" src={team3Src} /></span>
                     <span className={styles.TeamItem4}><img alt="Team" src={team4Src} /></span>
-                    <Button onClick={() => alert('Clicked')} color="#4B4737" backgroundColor="white">Contact Us</Button>
+                    <Link to="/contact-us">
+                        <Button color="#4B4737" backgroundColor="white">Contact Us</Button>
+                    </Link>
                 </div>
             </div>
 
@@ -29,7 +32,9 @@ const TeamSection = () => (
                     <span className={styles.TeamItem2}><img alt="Team" src={team2Src} /></span>
                     <span className={styles.TeamItem3}><img alt="Team" src={team3Src} /></span>
                     <span className={styles.TeamItem4}><img alt="Team" src={team4Src} /></span>
-                    <Button onClick={() => alert('Clicked')} color="#4B4737" backgroundColor="white">Contact Them</Button>
+                    <Link to="/contact-us">
+                        <Button color="#4B4737" backgroundColor="white">Contact Them</Button>
+                    </Link>
                 </div>
             </div>
         </div>
