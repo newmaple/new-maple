@@ -42,7 +42,7 @@ const PressSection = () => (
             {press.map((el) => {
                 return (
                     <span className={styles.PressItem}>
-                        <a href={el.link} target="_blank"><img src={el.img} /></a>
+                        <a href={el.link} target="_blank"><img alt="Press" src={el.img} /></a>
                     </span>
                 )
             })}

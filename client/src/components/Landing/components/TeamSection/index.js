@@ -14,10 +14,10 @@ const TeamSection = () => (
             <div className={styles.Team}>
                 <h3>Team and board members</h3>
                 <div className={styles.AboutTeam}>
-                    <span className={styles.TeamItem1}><img src={team1Src} /></span>
-                    <span className={styles.TeamItem2}><img src={team2Src} /></span>
-                    <span className={styles.TeamItem3}><img src={team3Src} /></span>
-                    <span className={styles.TeamItem4}><img src={team4Src} /></span>
+                    <span className={styles.TeamItem1}><img alt="Team" src={team1Src} /></span>
+                    <span className={styles.TeamItem2}><img alt="Team" src={team2Src} /></span>
+                    <span className={styles.TeamItem3}><img alt="Team" src={team3Src} /></span>
+                    <span className={styles.TeamItem4}><img alt="Team" src={team4Src} /></span>
                     <Button onClick={() => alert('Clicked')} color="#4B4737" backgroundColor="white">Contact Us</Button>
                 </div>
             </div>
@@ -25,10 +25,10 @@ const TeamSection = () => (
             <div className={styles.Team}>
                 <h3>The cannabis growers</h3>
                 <div className={styles.AboutTeam}>
-                    <span className={styles.TeamItem1}><img src={team1Src} /></span>
-                    <span className={styles.TeamItem2}><img src={team2Src} /></span>
-                    <span className={styles.TeamItem3}><img src={team3Src} /></span>
-                    <span className={styles.TeamItem4}><img src={team4Src} /></span>
+                    <span className={styles.TeamItem1}><img alt="Team" src={team1Src} /></span>
+                    <span className={styles.TeamItem2}><img alt="Team" src={team2Src} /></span>
+                    <span className={styles.TeamItem3}><img alt="Team" src={team3Src} /></span>
+                    <span className={styles.TeamItem4}><img alt="Team" src={team4Src} /></span>
                     <Button onClick={() => alert('Clicked')} color="#4B4737" backgroundColor="white">Contact Them</Button>
                 </div>
             </div>

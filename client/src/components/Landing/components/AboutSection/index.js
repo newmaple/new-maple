@@ -7,7 +7,7 @@ const growersBgSrc = require('src/assets/img/growersBg.jpg');
 
 const AboutSection = () => (
     <div className={styles.AboutSection + " container"} id="AboutSection">
-        <div><img src={logoSrc} /></div>
+        <div><img alt="new maple" src={logoSrc} /></div>
         <div className={styles.Description}>
             Founded in 2016 and headquartered in Toronto, New Maple Holdings LTD is a diversified company offering cannabis investment products and expertise, managed by an unrivaled experienced team of legal industry experts and cannabis connoisseurs.
         </div>
