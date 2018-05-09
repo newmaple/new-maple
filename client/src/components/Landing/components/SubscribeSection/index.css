@@ -25,13 +25,19 @@
 }
 
 .InputContainer {
-
+    padding: 30px 10px;
 }
 
 .InputContainer input {
-
+    border-radius: 22px 0px 0px 22px;
+    line-height: 25px;
+    padding: 10px 20px;
+    border: 0px;
+    vertical-align: bottom;
+    font-size: 14px;
 }
 
 .InputContainer button {
-
+    border-radius: 0px 22px 22px 0px !important;
+    min-height: 45px !important;
 }
