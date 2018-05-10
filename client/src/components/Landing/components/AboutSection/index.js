@@ -18,6 +18,7 @@ const AboutSection = () => (
                 <span>CANWE GROWERS</span>
                 <span>NEW MAPLE CONSULTING</span>
             </div>
+
             <div className={styles.GrowsersDetails} style={{backgroundImage:`url(${growersBgSrc})`}}>
                 <h4>CanWe Growers, INC</h4>
                 <div className={styles.GrowersDescription}>
@@ -25,6 +26,19 @@ const AboutSection = () => (
                 </div>
                 <div className={styles.GrowersContact}>
                     For more information please contact us at <a href="mailto:inquiry@canwe.ca?subject=Canwe%Growers">inquiry@canwe.ca</a>
+                    <Link to="/contact-us">
+                        <Button color="#4B4737" backgroundColor="white">Contact Us</Button>
+                    </Link>
+                </div>
+            </div>
+
+            <div className={styles.GrowsersDetails} style={{backgroundImage:`url(${growersBgSrc})`}}>
+                <h4>New Maple Consulting</h4>
+                <div className={styles.GrowersDescription}>
+                    NMC offers and provides various Cannabis management services to other companies already in receipt of their LP and LP applicants in exchange for cash and equity. We would be glad to supply you with our list of offered management services.
+                </div>
+                <div className={styles.GrowersContact}>
+                    For more information please contact us at <a href="mailto:inquiry@canwe.ca?subject=New%Maple%Consulting">inquiry@canwe.ca</a>
                     <Link to="/contact-us">
                         <Button color="#4B4737" backgroundColor="white">Contact Us</Button>
                     </Link>
