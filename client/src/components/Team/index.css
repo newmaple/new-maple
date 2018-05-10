@@ -1,4 +1,5 @@
 .Selector {
+  white-space: nowrap;
   display: flex;
   color: #4B4737;
   justify-content: center;
@@ -23,10 +24,9 @@
   width: 125px;
   height: 125px;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   border-radius: 50%;
   flex-shrink: 0;
-  background: #BDBBB5;
   margin-right: 30px;
 
 }
