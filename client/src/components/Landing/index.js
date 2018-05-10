@@ -2,7 +2,6 @@ import React from 'react';
 
 import InfoSection from './components/InfoSection';
 import AboutSection from './components/AboutSection';
-import PressSection from './components/PressSection';
 import TeamSection from './components/TeamSection';
 import InvestorSection from './components/InvestorSection';
 
@@ -12,7 +11,6 @@ const Landing = () => (
     <div>
         <InfoSection />
         <AboutSection />
-        <PressSection />
         <TeamSection />
         <InvestorSection />
     </div>
