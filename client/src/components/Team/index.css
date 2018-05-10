@@ -1,0 +1,50 @@
+.Selector {
+  display: flex;
+  color: #4B4737;
+  justify-content: center;
+  align-items: center;
+  font-size:  15px;
+  padding: 20px;
+  
+  * {
+      margin: 15px;
+      padding-bottom: 5px;
+      border-bottom: 4px solid #4B4737;
+  }
+}
+
+
+.TeamItem {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.TeamItemImage {
+  width: 125px;
+  height: 125px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: #BDBBB5;
+  margin-right: 30px;
+
+}
+
+.TeamItemBody {
+  color: #9F9C8E;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.TeamItemTitle {
+  padding-bottom: 10px;
+  color: #4B4737;
+  font-size: 28px;
+}
+
+.TeamItemSubtitle {
+  line-height: 30px;
+  color: #BDBBB5;
+  font-size: 20px;
+}

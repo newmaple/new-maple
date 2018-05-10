@@ -28,11 +28,16 @@
   padding: 50px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+
+  > * {
+    margin: 15px;
+  }
 }
 
 .ContactUsForm {
   flex: 1;
-  margin-right: 40px;
+  margin-bottom: 20px;
   .Title {
     font-size: 20px;
     color: #4b4737;
@@ -45,6 +50,13 @@
     background-color: #F7CF76;
     padding: 10px 30px;
     font-weight: bold;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .ContactUsContainer {
+      flex-direction: column;
   }
 }
 
@@ -65,6 +77,7 @@
 }
 
 .ContactUsDetails {
+  white-space: nowrap;
   flex: 1;
   line-height: 32px;
   .Title {

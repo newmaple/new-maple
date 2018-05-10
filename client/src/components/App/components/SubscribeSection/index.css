@@ -26,6 +26,7 @@
 
 .InputContainer {
     padding: 30px 10px;
+    font-size: 0px;
 }
 
 .InputContainer input {
@@ -35,6 +36,7 @@
     border: 0px;
     vertical-align: bottom;
     font-size: 14px;
+    max-width: 40%;
 }
 
 .InputContainer button {
