@@ -29,6 +29,7 @@
 }
 
 .InputContainer input {
+    outline: none;
     border-radius: 22px 0px 0px 22px;
     line-height: 25px;
     padding: 10px 20px;
