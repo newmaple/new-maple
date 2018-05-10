@@ -1,4 +1,5 @@
 import React from "react";
+import swal from 'sweetalert2';
 import {reduxForm} from "redux-form";
 import cn from "classnames";
 
@@ -31,13 +32,25 @@ let ContactUsForm = ({handleSubmit}) => (
     <div className={styles.Title}>Send us a message</div>
     <Field name="name" placeholder="Full name" component={Input} /> 
     <Field name="phone" placeholder="Phone number" component={Input} />
-    <Field name="email" placeholder="you@email.com" component={Input} /> 
+    <Field name="email" type="email" placeholder="you@email.com" component={Input} /> 
     <Field name="message" placeholder="Your message" component={TextArea} />
     <button className={styles.Button} type="submit">SEND</button>
   </form>
 );
 
-ContactUsForm = reduxForm({form: 'contact-us'})(ContactUsForm)
+const onSubmit = (formData) => {
+  if (formData.email) {
+    window.analytics.identify(formData.email, formData);
+    swal(
+      'Message sent',
+      'Thank you for your interest in New Maple Holdings.',
+      'success'
+    )
+  }
+}
+
+
+ContactUsForm = reduxForm({form: 'contact-us', onSubmit})(ContactUsForm)
 
 const ContactUsDetails = () => (
   <div className={styles.ContactUsDetails}>

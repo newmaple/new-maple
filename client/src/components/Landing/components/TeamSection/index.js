@@ -6,7 +6,7 @@ import Button from 'src/components/utils/Button';
 const team1Src = require('src/components/Team/images/newmaple-12.jpg');
 const team2Src = require('src/components/Team/images/newmaple-1.jpg');
 const team3Src = require('src/components/Team/images/newmaple-13.jpg');
-const team4Src = require('src/components/Team/images/tegan-original.jpg');
+const team4Src = require('src/components/Team/images/tegan.png');
 
 const grow1Src = require('src/components/Team/images/newmaple-5.jpg');
 const grow2Src = require('src/components/Team/images/newmaple-2-flipped.jpg');

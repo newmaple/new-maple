@@ -7,7 +7,6 @@ const Selector = () => (
   <div className={styles.Selector}>
     <NavLink strict activeClassName={styles.SelectorActive} to="/team">NEW MAPLE CONSULTING</NavLink>
     <NavLink strict activeClassName={styles.SelectorActive} to="/team/growers">CANWE GROWERS</NavLink>
-
   </div>
 );
 
