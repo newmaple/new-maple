@@ -52,7 +52,7 @@ const ContactUsDetails = () => (
       <div className={styles.Detail}>Email: info@newmaple.ca</div>
     </div>
     <div className={styles.Item}>
-      <div className={styles.ItemTitle}>GENERAL ENQUIRIES</div>
+      <div className={styles.ItemTitle}>MEDIA ENQUIRIES</div>
       <div className={styles.Detail}>Email: press@newmaple.ca</div>
     </div>
     <div className={styles.Item}>
