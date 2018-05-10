@@ -26,7 +26,41 @@
   line-height: 15px;
 }
 
+
+.NavToggle {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .Nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .NavToggle {
+    display: block;
+  }
+}
+
 .NavItem {
   white-space: nowrap;
   padding: 15px;
+}
+
+.NavToggleInput:checked + .Nav {
+  display: flex;
+
+}
+
+.NavToggle {
+  cursor: pointer;
+  font-size: 26px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+
+.NavToggleInput {
+  display: none;
 }

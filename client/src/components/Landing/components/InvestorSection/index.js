@@ -22,7 +22,7 @@ const InvestorSection = () => (
 
         <div className={styles.InvestorDescriptionContainer + " container"}>
             <div className={styles.InvestorDescriptionHeading}>
-                With our cannabis industry experience, expertise & knowledge, we can answer any questions you may have either through New Maple Holdings LTD or New Maple Consulting.
+                With our cannabis industry experience, expertise & knowledge, we can answer any questions you may have either through New Maple Holdings LTD or our Strategic Partnerships through NMC.
             </div>
             <div className={styles.InvestorDescriptionItem}>
                 New Maple Holdings LTD, as owner of Canwe Growers and NMC, has one class of common shares which it issues to investors as a means of raising capital.<br/><br/>By purchasing shares in New Maple Holdings, investors own a proportional piece of each of the company’s wholly owned subsidiaries. <br/><br/>NMC offers various services to other companies already in receipt of their LP and LP applicants in exchange for cash and equity.

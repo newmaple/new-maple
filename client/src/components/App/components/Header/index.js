@@ -4,12 +4,21 @@ import {Link} from "react-router-dom";
 
 import styles from "./index.css";
 
+
+
+
+
+
 const Header = () => (
   <div className={styles.Header}>
     <div className={cn("container", styles.Container)}>
       <Link to="/">
         <img style={{height: '80px'}} src={require("./logo.png")} alt="New Maple Holdings" />
       </Link>
+      <label htmlFor="toggle-menu" className={styles.NavToggle}>
+        ☰
+      </label>
+      <input  className={styles.NavToggleInput} type="checkbox" id="toggle-menu" />
       <div className={styles.Nav}>
         <Link to="/team" className={styles.NavItem}>COMPANY</Link>
         <a className={styles.NavItem}>PARTNER WITH US</a>
