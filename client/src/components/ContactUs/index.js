@@ -57,12 +57,13 @@ const ContactUsDetails = () => (
     </div>
     <div className={styles.Item}>
       <div className={styles.ItemTitle}>OUR OFFICE</div>
-      <div className={styles.Detail}>Number 1 office block</div>
-      <div className={styles.Detail}>0 Bowling Green Lane</div>
-      <div className={styles.Detail}>ZIP C0DE, City.</div>
+      <div className={styles.Detail}>2481 Nightstar Drive</div>
+      <div className={styles.Detail}>Oakville, ON L6M 3R1</div>
+      <div className={styles.Detail}>Canada</div>
     </div>
   </div>
 );
+
 
 const ContactUs = () => (
   <div className={styles.ContactUs}>
