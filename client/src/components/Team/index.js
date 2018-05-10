@@ -1,12 +1,12 @@
 import React from "react";
-import {Link, Route, Switch} from "react-router-dom";
+import {NavLink, Route, Switch} from "react-router-dom";
 
 import styles from "./index.css";
 
 const Selector = () => (
   <div className={styles.Selector}>
-    <Link to="/team/consulting">NEW MAPLE CONSULTING</Link>
-    <Link to="/team/growers">CANWE GROWERS</Link>
+    <NavLink strict activeClassName={styles.SelectorActive} to="/team">NEW MAPLE CONSULTING</NavLink>
+    <NavLink strict activeClassName={styles.SelectorActive} to="/team/growers">CANWE GROWERS</NavLink>
 
   </div>
 );
@@ -54,7 +54,6 @@ const Team = () => (
   <div className={styles.Team}>
     <Selector />
     <Switch>
-      <Route path="/team/consulting" component={Consulting} />
       <Route path="/team/growers" component={Growers} />
       <Route path="/team" component={Consulting} />
     </Switch>

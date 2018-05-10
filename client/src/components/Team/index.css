@@ -10,8 +10,14 @@
   * {
       margin: 15px;
       padding-bottom: 5px;
-      border-bottom: 4px solid #4B4737;
+      
   }
+}
+
+
+
+.SelectorActive {
+  border-bottom: 4px solid #4B4737;
 }
 
 
