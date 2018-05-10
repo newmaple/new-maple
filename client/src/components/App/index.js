@@ -5,6 +5,7 @@ import segment from 'segment';
 
 import Landing from 'src/components/Landing';
 import ContactUs from 'src/components/ContactUs';
+import Team from 'src/components/Team';
 
 import './App.css';
 import Header from './components/Header';
@@ -29,6 +30,7 @@ class App extends Component {
         <div style={{height: '115px'}} />
         <Switch>
             <Route exact path="/contact-us" component={ContactUs}/>
+            <Route path="/team" component={Team}/>
             <Route exact path="/" component={Landing}/>
         </Switch>
         <SubscribeSection  />

@@ -8,10 +8,10 @@ const Header = () => (
   <div className={styles.Header}>
     <div className={cn("container", styles.Container)}>
       <Link to="/">
-        <img style={{height: '89px'}} src={require("./logo.png")} alt="New Maple Holdings" />
+        <img style={{height: '80px'}} src={require("./logo.png")} alt="New Maple Holdings" />
       </Link>
       <div className={styles.Nav}>
-        <a className={styles.NavItem}>COMPANY</a>
+        <Link to="/team" className={styles.NavItem}>COMPANY</Link>
         <a className={styles.NavItem}>PARTNER WITH US</a>
         <Link to="/contact-us" className={styles.NavItem}>CONTACT US</Link>
       </div>

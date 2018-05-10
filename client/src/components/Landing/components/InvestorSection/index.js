@@ -6,19 +6,21 @@ import Button from 'src/components/utils/Button';
 const investorBgSrc = require('src/assets/img/investorBg.jpg');
 
 const InvestorSection = () => (
-    <div className={styles.InvestorSection + " container"} id="InvestorSection">
+    <div className={styles.InvestorSection} id="InvestorSection">
 
         <div className={styles.InvestorContainer} style={{backgroundImage: `url(${investorBgSrc})`}}>
-            <h2>Investors</h2>
-            <div className={styles.Description}>
-                If you are a qualified investor and would like to consider investing in our company, please contact us and let us help you with your cannabis questions.
+            <div className="container">
+                <h2>Investors</h2>
+                <div className={styles.Description}>
+                    If you are a qualified investor and would like to consider investing in our company, please contact us and let us help you with your cannabis questions.
+                </div>
+                <Link to="/contact-us">
+                    <Button color="#4B4737" backgroundColor="white">Contact Us</Button>
+                </Link>
             </div>
-            <Link to="/contact-us">
-                <Button color="#4B4737" backgroundColor="white">Contact Us</Button>
-            </Link>
         </div>
 
-        <div className={styles.InvestorDescriptionContainer}>
+        <div className={styles.InvestorDescriptionContainer + " container"}>
             <div className={styles.InvestorDescriptionHeading}>
                 With our cannabis industry experience, expertise & knowledge, we can answer any questions you may have either through New Maple Holdings LTD or New Maple Consulting.
             </div>

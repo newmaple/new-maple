@@ -70,3 +70,19 @@
 .GrowersContact button {
     margin: 35px 10px 20px;
 }
+
+.Selector {
+    display: flex;
+    color: #4B4737;
+    justify-content: center;
+    align-items: center;
+    font-size:  15px;
+    * {
+        margin: 15px;
+        border-bottom: 4px solid #4B4737;
+    }
+}
+
+.TabSection {
+    padding-top: 40px;
+}

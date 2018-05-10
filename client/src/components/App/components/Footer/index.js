@@ -4,12 +4,15 @@ import {Link} from "react-router-dom";
 import TwitterIcon from "./components/TwitterIcon.svg";
 import FacebookIcon from "./components/FacebookIcon.svg";
 import LinkedInIcon from "./components/LinkedInIcon.svg";
+import LogoText from "./components/LogoText.svg";
 
 const Footer = () => (
   <div className={styles.Footer}>
-    <img src={require("./logo.png")} alt="logo" />
+    <LogoText />
     <div className={styles.Nav}>
-      <a className={styles.NavItem}>COMPANY</a>
+      <Link to="/team" className={styles.NavItem}>
+        COMPANY
+      </Link>
       <a className={styles.NavItem}>PARTNER WITH US</a>
       <Link to="/contact-us" className={styles.NavItem}>
         CONTACT US
