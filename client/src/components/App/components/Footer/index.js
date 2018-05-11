@@ -13,7 +13,7 @@ const Footer = () => (
       <Link to="/team" className={styles.NavItem}>
         OUR TEAM
       </Link>
-      <a className={styles.NavItem}>PARTNER WITH US</a>
+      <a href="/#partner-with-us" className={styles.NavItem}>PARTNER WITH US</a>
       <Link to="/contact-us" className={styles.NavItem}>
         CONTACT US
       </Link>
