@@ -48,6 +48,8 @@
 }
 
 .NavigationSection ul li {
+    cursor: pointer;
+    white-space: nowrap;
     margin: 20px 30px;
     display: flex;
     flex-direction: column;

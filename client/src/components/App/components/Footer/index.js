@@ -11,7 +11,7 @@ const Footer = () => (
     <LogoText />
     <div className={styles.Nav}>
       <Link to="/team" className={styles.NavItem}>
-        COMPANY
+        OUR TEAM
       </Link>
       <a className={styles.NavItem}>PARTNER WITH US</a>
       <Link to="/contact-us" className={styles.NavItem}>

@@ -4,7 +4,7 @@ import {NavLink, Route, Switch} from "react-router-dom";
 import styles from "./index.css";
 
 const Selector = () => (
-  <div className={styles.Selector}>
+  <div className={styles.Selector + " container"}>
     <NavLink strict activeClassName={styles.SelectorActive} to="/team">NEW MAPLE CONSULTING</NavLink>
     <NavLink strict activeClassName={styles.SelectorActive} to="/team/growers">CANWE GROWERS</NavLink>
   </div>
@@ -13,7 +13,7 @@ const Selector = () => (
 const TeamItem = ({title, subtitle, body, image}) => (
   <div className={styles.TeamItem}>
     <div className={styles.TeamItemImage} style={{backgroundImage: image ? `url(${image})` : `url(${require('./images/blank.png')})`}} />
-    <div className={styles.TeamItemContent}>
+    <div className={styles.TeamItemContent + " container"}>
       <div className={styles.TeamItemTitle} >{title}</div>
       <div className={styles.TeamItemSubtitle}>{subtitle}</div>
       <div className={styles.TeamItemBody}>{body}</div>

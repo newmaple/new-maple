@@ -19,11 +19,11 @@ const Header = () => (
         ☰
       </label>
       <input  className={styles.NavToggleInput} type="checkbox" id="toggle-menu" />
-      <div className={styles.Nav}>
-        <Link to="/team" className={styles.NavItem}>COMPANY</Link>
+      <label htmlFor="toggle-menu" className={styles.Nav}>
+        <Link to="/team" className={styles.NavItem}>OUR TEAM</Link>
         <a className={styles.NavItem}>PARTNER WITH US</a>
         <Link to="/contact-us" className={styles.NavItem}>CONTACT US</Link>
-      </div>
+      </label>
     </div>
   </div>
 );
