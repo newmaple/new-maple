@@ -1,10 +1,10 @@
 .InfoSection {
     text-align: center;
-    background-color: #000;
     height: 550px;
     background-size: cover;
     background-position: center;
     color: #FFFFFF;
+    overflow: hidden;
     position: relative;
 }
 
@@ -72,4 +72,22 @@
     .NavigationSection {
         display: block;
     }
+}
+
+.InfoSectionBackground {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto; 
+    height: auto;
+    z-index: -1000; 
+    overflow: hidden;
+}
+
+.InfoSectionContainer {
+    z-index: 100;
 }
