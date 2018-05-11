@@ -1,6 +1,7 @@
 import React from "react";
 import cn from "classnames";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 import styles from "./index.css";
 
@@ -26,9 +27,9 @@ const Header = () => (
         <Link to="/team" className={styles.NavItem}>
           OUR TEAM
         </Link>
-        <a href="/#partner-with-us" className={styles.NavItem}>
+        <HashLink to="/#AboutSection" scroll={el => el.scrollIntoView({ behavior: 'smooth', alignToTop: true, block: 'end' })} className={styles.NavItem}>
           PARTNER WITH US
-        </a>
+        </HashLink>
         <Link to="/contact-us" className={styles.NavItem}>
           CONTACT US
         </Link>

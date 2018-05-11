@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./index.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import TwitterIcon from "./components/TwitterIcon.svg";
 import FacebookIcon from "./components/FacebookIcon.svg";
 import LinkedInIcon from "./components/LinkedInIcon.svg";
 import LogoText from "./components/LogoText.svg";
+import { HashLink } from "react-router-hash-link";
 
 const Footer = () => (
   <div className={styles.Footer}>
@@ -13,7 +14,19 @@ const Footer = () => (
       <Link to="/team" className={styles.NavItem}>
         OUR TEAM
       </Link>
-      <a href="/#partner-with-us" className={styles.NavItem}>PARTNER WITH US</a>
+      <HashLink
+        to="/#AboutSection"
+        scroll={el =>
+          el.scrollIntoView({
+            behavior: "smooth",
+            alignToTop: true,
+            block: "end"
+          })
+        }
+        className={styles.NavItem}
+      >
+        PARTNER WITH US
+      </HashLink>
       <Link to="/contact-us" className={styles.NavItem}>
         CONTACT US
       </Link>
