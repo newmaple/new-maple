@@ -28,7 +28,7 @@ const InvestorSection = () => (
                 New Maple Holdings LTD, as owner of Canwe Growers and NMC, has one class of common shares which it issues to investors as a means of raising capital.<br/><br/>By purchasing shares in New Maple Holdings, investors own a proportional piece of each of the company’s wholly owned subsidiaries. <br/><br/>NMC offers various services to other companies already in receipt of their LP and LP applicants in exchange for cash and equity.
             </div>
             <div className={styles.InvestorDescriptionItem}>
-                At the time of writing, NMC holds approximately 5% of the fully diluted common shares of Northern Green Canada (NGC); an LP with over 200,000ft2 of facility space based in Brampton, Ontario. <br/><br/>NGC currently has a cultivation license and is anticipating its sales license in the Summer 2018.<br/><br/>For more information, email us at <a href="mailto:inquiry@canwe.ca?subject=Canwe%Growers">inquiry@canwe.ca</a>
+                At the time of writing, NMC holds approximately 5% of the fully diluted common shares of Northern Green Canada (NGC); an LP with over 200,000ft2 of facility space based in Brampton, Ontario. <br/><br/>NGC currently has a cultivation license and is anticipating its sales license in the Summer 2018.<br/><br/>For more information, email us at <a href="mailto:info@canwe.ca?subject=Canwe%Growers">info@canwe.ca</a>
             </div>
         </div>
 

@@ -5,7 +5,7 @@ import styles from "./index.css";
 
 const Selector = () => (
   <div className={styles.Selector + " container"}>
-    <NavLink strict activeClassName={styles.SelectorActive} to="/team">NEW MAPLE CONSULTING</NavLink>
+    <NavLink strict activeClassName={styles.SelectorActive} to="/team">PARTNER WITH US</NavLink>
     <NavLink strict activeClassName={styles.SelectorActive} to="/team/growers">CANWE GROWERS</NavLink>
   </div>
 );

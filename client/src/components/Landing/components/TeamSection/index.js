@@ -24,8 +24,8 @@ const TeamSection = () => (
                     <span className={styles.TeamItem2}><img alt="Team" src={team2Src} /></span>
                     <span className={styles.TeamItem3}><img alt="Team" src={team3Src} /></span>
                     <span className={styles.TeamItem4}><img alt="Team" src={team4Src} /></span>
-                    <Link to="/team/consulting">
-                        <Button color="#4B4737" backgroundColor="white">Contact Us</Button>
+                    <Link to="/team">
+                        <Button color="#4B4737" backgroundColor="white">Meet the Board & Team</Button>
                     </Link>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const TeamSection = () => (
                     <span className={styles.TeamItem3}><img alt="Team" src={grow3Src} /></span>
                     <span className={styles.TeamItem4}><img alt="Team" src={grow4Src} /></span>
                     <Link to="/team/growers">
-                        <Button color="#4B4737" backgroundColor="white">Contact Them</Button>
+                        <Button color="#4B4737" backgroundColor="white">Meet the Growers</Button>
                     </Link>
                 </div>
             </div>
