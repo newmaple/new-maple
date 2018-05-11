@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./index.css";
-import {Link, Route, Switch} from "react-router-dom";
+import {Link} from "react-router-dom";
 import cn from 'classnames';
 
 import Button from "src/components/utils/Button";
@@ -23,7 +23,7 @@ const Growers = () => (
       </div>
     </div>
   </div>
-)
+);
 
 const Consulting = () => (
   <div className={styles.GrowsersDetails} style={{backgroundImage:`url(${growersBgSrc})`}}>
@@ -63,11 +63,11 @@ class AboutSection extends React.Component {
 
         <div className={styles.TabSection} id="GrowersSection">
           <div className={styles.Selector}>
-            <span onClick={() => this.setState({tab: 1})} className={cn({[`${styles.SelectedTab}`]: this.state.tab == 1})}>CANWE GROWERS</span>
-            <span onClick={() => this.setState({tab: 2})} className={cn({[`${styles.SelectedTab}`]: this.state.tab == 2})}>NEW MAPLE CONSULTING</span>
+            <span onClick={() => this.setState({tab: 1})} className={cn({[`${styles.SelectedTab}`]: this.state.tab === 1})}>CANWE GROWERS</span>
+            <span onClick={() => this.setState({tab: 2})} className={cn({[`${styles.SelectedTab}`]: this.state.tab === 2})}>NEW MAPLE CONSULTING</span>
           </div>
 
-          { this.state.tab == 1 ? <Growers /> : <Consulting /> }
+          { this.state.tab === 1 ? <Growers /> : <Consulting /> }
         </div>
       </div>
     )

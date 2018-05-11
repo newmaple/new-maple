@@ -12,8 +12,14 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import SubscribeSection from './components/SubscribeSection';
 
+
 @withRouter
 class App extends Component {
+  componentDidUpdate(prevProps) {
+    if (this.props.location !== prevProps.location) {
+      window.scrollTo(0, 0)
+    }
+  }
   componentDidMount() {
     const {location} = this.props;
     segment.page(location.pathname, location.search);

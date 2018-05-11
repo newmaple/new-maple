@@ -26,6 +26,24 @@
   padding-bottom: 40px;
 }
 
+@media (max-width: 600px) {
+  .TeamItem {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    > * {
+      padding: 15px;
+    }
+
+    .TeamItemImage {
+        margin-right: 0;
+    }
+  }
+}
+
+
 .TeamItemImage {
   width: 125px;
   height: 125px;
