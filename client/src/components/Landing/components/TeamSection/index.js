@@ -31,7 +31,7 @@ const TeamSection = () => (
             </div>
 
             <div className={styles.Team}>
-                <h3>The cannabis growers</h3>
+                <h3>The cannabis dream team</h3>
                 <div className={styles.AboutTeam}>
                     <span className={styles.TeamItem1}><img alt="Team" src={grow1Src} /></span>
                     <span className={styles.TeamItem2}><img alt="Team" src={grow2Src} /></span>

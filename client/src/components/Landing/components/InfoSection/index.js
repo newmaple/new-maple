@@ -34,9 +34,9 @@ const InfoSection = () => (
 
 
     <div className={styles.InfoSectionContainer + " container"}>
-      <h2>A new breed.</h2>
+      <h2>A Global Cannabis Project.</h2>
       <div className={styles.Description}>
-        Premium Canadian Cannabis by connisseurs, for connisseurs.
+      Premium Canadian Cannabis, by Connoisseurs for Connoisseurs.
       </div>
       <div className={styles.NavigationSection}>
         <ul>

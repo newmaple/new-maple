@@ -33,7 +33,7 @@ let ContactUsForm = ({handleSubmit}) => (
     <Field name="name" placeholder="Full name" component={Input} /> 
     <Field name="phone" placeholder="Phone number" component={Input} />
     <Field name="email" type="email" placeholder="you@email.com" component={Input} /> 
-    <Field name="message" placeholder="Your message" component={TextArea} />
+    <Field name="Message" placeholder="Your message" component={TextArea} />
     <button className={styles.Button} type="submit">SEND</button>
   </form>
 );
@@ -58,7 +58,6 @@ const ContactUsDetails = () => (
     <div className={styles.Item}>
       <div className={styles.ItemTitle}>INVESTOR ENQUIRIES</div>
       <div className={styles.Detail}>Email: hello@newmaple.ca</div>
-      <div className={styles.Detail}>Phone: 020 3308 9800</div>
     </div>
     <div className={styles.Item}>
       <div className={styles.ItemTitle}>GENERAL ENQUIRIES</div>
@@ -67,12 +66,6 @@ const ContactUsDetails = () => (
     <div className={styles.Item}>
       <div className={styles.ItemTitle}>MEDIA ENQUIRIES</div>
       <div className={styles.Detail}>Email: press@newmaple.ca</div>
-    </div>
-    <div className={styles.Item}>
-      <div className={styles.ItemTitle}>OUR OFFICE</div>
-      <div className={styles.Detail}>2481 Nightstar Drive</div>
-      <div className={styles.Detail}>Oakville, ON L6M 3R1</div>
-      <div className={styles.Detail}>Canada</div>
     </div>
   </div>
 );
