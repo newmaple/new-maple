@@ -14,7 +14,7 @@
     ],
     "headers": [
       {
-        "source": "build/(index.html|revision.txt|service-worker.js)",
+        "source": "/(index.html|revision.txt|service-worker.js)",
         "headers": [{
           "key": "Cache-Control",
           "value": "max-age=0"
