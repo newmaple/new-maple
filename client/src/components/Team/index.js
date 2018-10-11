@@ -57,7 +57,8 @@ const Consulting = () => (
     <TeamItem
       title="Kam Aldabbagh"
       image={require("./images/newmaple-8.jpg")}
-      subtitle="Having graduated with an HBA in Marketing and Advertising from the University of Guelph, Kam went on to start a successful international trading company in Dubai called Mettco. Mettco is a parent company to multiple brands and franchises across the Middle East including ACE hardware and other construction supply companies.  With global experience in corporate development, he has established and sustained companies within the retail and supply-chain industries and has proven to be a valuable asset as a Director of New Maple."
+      subtitle="Director"
+      body="Having graduated with an HBA in Marketing and Advertising from the University of Guelph, Kam went on to start a successful international trading company in Dubai called Mettco. Mettco is a parent company to multiple brands and franchises across the Middle East including ACE hardware and other construction supply companies.  With global experience in corporate development, he has established and sustained companies within the retail and supply-chain industries and has proven to be a valuable asset as a Director of New Maple."
     />
   </div>
 );
