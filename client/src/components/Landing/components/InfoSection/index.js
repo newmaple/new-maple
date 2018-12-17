@@ -31,26 +31,28 @@ const scrollIntoView = selector => {
 
 const InfoSection = () => (
   <div className={styles.InfoSection}>
-
-
     <div className={styles.InfoSectionContainer + " container"}>
       <h2>A Global Cannabis Project.</h2>
       <div className={styles.Description}>
-      Premium Canadian Cannabis, by Connoisseurs for Connoisseurs.
+        Premium Canadian Cannabis, by Connoisseurs for Connoisseurs.
       </div>
       <div className={styles.NavigationSection}>
         <ul>
           <li onClick={() => scrollIntoView("#AboutSection")}>
-            About us<DownArrow />
+            About us
+            <DownArrow />
           </li>
           <li onClick={() => scrollIntoView("#GrowersSection")}>
-            Growers<DownArrow />
+            Growers
+            <DownArrow />
           </li>
           <li onClick={() => scrollIntoView("#TeamSection")}>
-            Our team<DownArrow />
+            Our team
+            <DownArrow />
           </li>
           <li onClick={() => scrollIntoView("#InvestorSection")}>
-            Investment<DownArrow />
+            Investment
+            <DownArrow />
           </li>
         </ul>
       </div>
@@ -58,6 +60,7 @@ const InfoSection = () => (
     <video
       className={styles.InfoSectionBackground}
       autoPlay
+      muted
       src={require("./background.mp4")}
     />
   </div>
