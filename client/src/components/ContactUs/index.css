@@ -25,7 +25,7 @@
 }
 
 .ContactUsContainer {
-  padding: 50px;
+  padding: 50px !important;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -47,16 +47,15 @@
     border: none;
     border-radius: 28px;
     color: white;
-    background-color: #F7CF76;
+    background-color: #f7cf76;
     padding: 10px 30px;
     font-weight: bold;
   }
 }
 
-
 @media (max-width: 600px) {
   .ContactUsContainer {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
 
