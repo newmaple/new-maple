@@ -3,8 +3,8 @@ import { Route, Switch } from "react-router-dom";
 import { withRouter } from "react-router";
 import segment from "segment";
 
-import Landing from "src/components/Landing";
-import Team from "src/components/Team";
+// import Landing from "src/components/Landing";
+// import Team from "src/components/Team";
 import ContactUs from "src/components/ContactUs";
 
 import "./App.css";

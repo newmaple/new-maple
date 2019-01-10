@@ -4,7 +4,7 @@ import styles from "./index.css";
 import TwitterIcon from "./components/TwitterIcon.svg";
 import FacebookIcon from "./components/FacebookIcon.svg";
 import LinkedInIcon from "./components/LinkedInIcon.svg";
-import LogoText from "./components/LogoText.svg";
+// import LogoText from "./components/LogoText.svg";
 // import { Link } from "react-router-dom";
 // import { HashLink } from "react-router-hash-link";
 
