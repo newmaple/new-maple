@@ -1,7 +1,7 @@
 import React from "react";
 import cn from "classnames";
 import { Link } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
+// import { HashLink } from "react-router-hash-link";
 
 import styles from "./index.css";
 
@@ -11,11 +11,11 @@ const Header = () => (
       <Link to="/">
         <img
           style={{ height: "80px" }}
-          src={require("./logo.png")}
+          src={require("src/assets/img/logo.png")}
           alt="New Maple Holdings"
         />
       </Link>
-      <label htmlFor="toggle-menu" className={styles.NavToggle}>
+      {/* <label htmlFor="toggle-menu" className={styles.NavToggle}>
         ☰
       </label>
       <input
@@ -33,7 +33,7 @@ const Header = () => (
         <Link to="/contact-us" className={styles.NavItem}>
           CONTACT US
         </Link>
-      </label>
+      </label> */}
     </div>
   </div>
 );

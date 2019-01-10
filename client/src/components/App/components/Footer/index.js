@@ -1,16 +1,17 @@
 import React from "react";
 import styles from "./index.css";
-import { Link } from "react-router-dom";
+
 import TwitterIcon from "./components/TwitterIcon.svg";
 import FacebookIcon from "./components/FacebookIcon.svg";
 import LinkedInIcon from "./components/LinkedInIcon.svg";
 import LogoText from "./components/LogoText.svg";
-import { HashLink } from "react-router-hash-link";
+// import { Link } from "react-router-dom";
+// import { HashLink } from "react-router-hash-link";
 
 const Footer = () => (
   <div className={styles.Footer}>
-    <LogoText />
-    <div className={styles.Nav}>
+    {/* <LogoText /> */}
+    {/* <div className={styles.Nav}>
       <Link to="/team" className={styles.NavItem}>
         OUR TEAM
       </Link>
@@ -30,7 +31,7 @@ const Footer = () => (
       <Link to="/contact-us" className={styles.NavItem}>
         CONTACT US
       </Link>
-    </div>
+    </div> */}
     <div className={styles.Nav}>
       <TwitterIcon className={styles.NavItem} />
       <FacebookIcon className={styles.NavItem} />
