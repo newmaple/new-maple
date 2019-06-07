@@ -1,4 +1,4 @@
-The iCommunis client can be deployed using CircleCI.
+The New Maple client can be deployed using CircleCI.
 CircleCI is configured to automatically build and then deploy to Firebase Hosting. The configuration can be accessed at [./config/circleci.yaml](../../.config/circleci.yaml)
 
 To enable automatic frontend deployments:
