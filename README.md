@@ -3,7 +3,7 @@
 ## Client Deployment
 
 The New Maple client can be deployed using CircleCI.
-CircleCI is configured to automatically build and then deploy to Firebase Hosting. The configuration can be accessed at [.config/circleci.yaml](.config/circleci.yaml)
+CircleCI is configured to automatically build and then deploy to Firebase Hosting. The configuration can be accessed at [.circleci/config.yaml](.circleci/config.yaml)
 
 [Click Here](docs/client/README.md) to learn more.
 
